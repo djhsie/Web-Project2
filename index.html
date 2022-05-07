@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>로그인 시스템</title>
+    </head>
+    <body>
+        <h1>로그인 시스템 프론트엔드</h1>
+        <form action="https://localhost/login.java">
+            <p><label for="id">id : </label><input type="text" id="id" name="id" value="아이디를 입력하세요."></p>
+            <p><label for="pwd">password : </label><input type="password" id="pwd" name="pwd" value="비밀번호를 입력하세요."></p>
+            <p><label for="ad">adress : </label><textarea name="ad" id="ad" cols="30" rows="5">주소를 입력하세요.</textarea></p>
+            <p><input type="button" value="로그인" onclick="alert('현재 서버 미개발로 로그인 기능을 사용하실 수 없습니다.')"> <input type="reset" value="재작성"></p>
+            <input type="hidden" name="username" value="user">
+        </form>
+        <p><a href="1.html">현재 로그인 명단</a></p>
+    </body>
+</html>
